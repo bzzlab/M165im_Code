@@ -24,7 +24,7 @@ MongoDB has a few rules about document field names, which are listed as follows:
 
 1. The field name cannot contain a null character.
 2. Only the fields in an array or an embedded document can have a name 
-starting with the dollar sign ($). For the top-level fields, the name cannot start with a dollar ($) sign.
+starting with the dollar sign (\$). For the top-level fields, the name cannot start with a dollar (\$) sign.
 3. Documents with duplicate field names are not supported. According to the MongoDB documentation, 
 when a document with duplicate field names is inserted, no error will be thrown, but the document 
 won't be inserted. Even the drivers will drop the documents silently. 
