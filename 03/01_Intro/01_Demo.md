@@ -38,5 +38,8 @@ export PATH=$MONGODB/tools/bin:$PATH
 
 # .bash_profile nur einmalig ausführen
 source .bash_profile
+
+# alle Pfade ausgeben und Kontrolle, ob MongoDB-Pfad gesetzt ist
+echo $PATH
 ```
 6. Test: mongorestore --version
